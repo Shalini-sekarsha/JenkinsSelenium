@@ -41,5 +41,10 @@
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.22.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/src/**/*.{test,spec}.{js,jsx,ts,tsx}"
+    ]
   }
 }
